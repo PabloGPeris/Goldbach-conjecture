@@ -23,7 +23,7 @@ int main(void) {
 		cerr << "Numero no valido" << endl;
 		system("pause");
 		ga.close();
-		return -1;
+		return 1;
 	}
 		
 	for (int i = 0; i < number; i++)
